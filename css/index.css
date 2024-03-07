@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/image/plano2.jpg');
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+section {
+    display: flex;
+    margin: 100px;
+}
+
+.container_infos {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 200px;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: context-menu;
+}
+
+
+.container_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_buttons a {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid none;
+    border-radius: 10px;
+    box-shadow: 3px 8px 10px #13131369;
+    font-size: 14px;
+    color: #02598E;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.container_buttons a:hover {
+    background-color: #05c7f2c7;
+    transition: 1.9s;  
+}
+
+img {
+    width: 150%;
+}
+
+
+
+
