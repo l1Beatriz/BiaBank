@@ -5,7 +5,8 @@ main {
     width: 100vw;
     height: 100vh;
     background-image: url('../assets/image/plano2.jpg');
-    background-size: cover; 
+    background-size: cover;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +45,7 @@ h1 {
     border: 2px solid none;
     border-radius: 10px;
     box-shadow: 3px 8px 10px #13131369;
+    
     font-size: 14px;
     color: #02598E;
     text-decoration: none;
@@ -53,6 +55,7 @@ h1 {
 
 .container_buttons a:hover {
     background-color: #05c7f2c7;
+    color: #fff;
     transition: 1.9s;  
 }
 
