@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastro Bia Bank</title>
+    <link rel="shortcut icon" href="assets/icon/icon_biabank.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cadastro.css">
-    <link rel="shortcut icon" href="assets/icon/icon_biabank.png" type="image/x-icon">
+    <title>Cadastro Bia Bank</title>
 </head>
 <body>
-    <header></header>
 
-    <main>    
+    <main class="main">    
         <div class="container_inputs">
-            <h1>Cadastre-se</h1>
+            <h1 class="titulo">Cadastre-se</h1>
 
-            <form>
-                <label for="nome">Nome completo</label>
-                <input id="nome" type="text">
+            <form class="formulario">
+                <div class="container_input">
+                    <label class="formulario_label" for="nome_completo">Nome completo:</label>
+                    <input class="formulario_input" id="nome_completo" type="text">
+                </div>
 
-                <label for="nome_mae">Nome da Mãe</label>
-                <input id="nome_mae" type="text">
+                <div class="container_input">
+                    <label class="formulario_label" for="nome_mae">Nome da Mãe:</label>
+                    <input class="formulario_input" id="nome_mae" type="text">
+                </div>
 
-                <label for="data_nascimento">Data de Nascimento</label>
-                <input id="data_nascimento" type="date">
+                <div class="container_input">
+                    <label class="formulario_label" for="data_nascimento">Data de Nascimento:</label>
+                    <input class="formulario_input" id="data_nascimento" type="date">
+                </div>
 
-                <label for="cpf">CPF</label>
-                <input id="cpf" type="text">
+                <div class="container_input">
+                    <label class="formulario_label" for="cpf">CPF:</label>
+                    <input class="formulario_input" id="cpf" type="text">
+                </div>
 
-                <label for="email">Email</label>
-                <input id="email" type="email">
+                <div class="container_input">
+                    <label class="formulario_label" for="email">Email:</label>
+                    <input class="formulario_input" id="email" type="email">
+                </div>
 
-                <label for="numero_telefone">Numero de Telefone</label>
-                <input id="numero_telefone" type="number">
-        
-                <input id="botao-de-cadastrar" type="submit" value="Cadastrar">
+                <div class="container_input">
+                    <label class="formulario_label" for="numero_telefone">Numero de Telefone:</label>
+                    <input class="formulario_input" id="numero_telefone" type="">
+                </div>
+
+                
+                <div class="container_input">
+                    <input class="formulario_input" id="botao-de-cadastrar" type="submit" value="Cadastrar">
+                </div>
             </form>
         </div>
     </main>    
 
-    <footer></footer>
+    <script src="js/cadastrar.js"></script>
 </body>
 </html>

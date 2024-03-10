@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
 body {
     height: 100vh;
 
     background-image: url('../assets/image/plano-de-fundo.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main_section {
@@ -16,7 +15,7 @@ body {
     flex-wrap: wrap;
 }
 
-.titulo {
+.titulo { 
     text-align: center;
     font-size: 200px;
     font-family: "Inter", sans-serif;
@@ -58,10 +57,13 @@ body {
         height: 100vh;
         justify-content: space-evenly;
     }
+
+    
+
 }
- 
-@media screen and (min-width: 596px) {
-    .img_banner{
+
+@media screen and (min-width: 1024px) {
+    .img_banner {
         width: 600px;
     }
 }
