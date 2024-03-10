@@ -1,28 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
-main {
-    width: 100vw;
+body {
     height: 100vh;
-    background-image: url('../assets/image/plano-de-fundo.jpg');
-    background-size: cover;
 
+    background-image: url('../assets/image/plano-de-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_section {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
-
-section {
-    display: flex;
-    margin: 100px;
+    flex-wrap: wrap;
 }
 
-.container_infos {
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
+.titulo {
+    text-align: center;
     font-size: 200px;
     font-family: "Inter", sans-serif;
     font-weight: bolder;
@@ -31,14 +26,7 @@ h1 {
     cursor: context-menu;
 }
 
-
-.container_buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container_buttons a {
+.button {
     background-color: #fff;
     padding: 10px;
     margin: 10px;
@@ -53,16 +41,27 @@ h1 {
     font-weight: bold;
 }
 
-.container_buttons a:hover {
+.button:hover {
     background-color: #05c7f2c7;
     color: #fff;
     transition: 1.9s;  
 }
 
-img {
-    width: 150%;
+.img_banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
-
-
-
+@media screen and (min-width: 596px) {
+    .main_section {
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+}
+ 
+@media screen and (min-width: 596px) {
+    .img_banner{
+        width: 600px;
+    }
+}
