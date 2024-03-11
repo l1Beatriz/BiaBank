@@ -22,7 +22,7 @@ export class Usuario {
         
             localStorage.setItem("cadastros", JSON.stringify(this.cadastros));
         
-            window.location.replace("/leituraForm.html");
+            window.location.href = "/leituraForm.html"
         
         })
 
@@ -114,7 +114,7 @@ export class Usuario {
         
             localStorage.setItem("cadastros", JSON.stringify(this.cadastros));
         
-            window.location.replace("/leituraForm.html");
+            window.location.href = "/leituraForm.html";
         
         })
 
