@@ -1,49 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registros Bia Bank</title>
+
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="./css/tabela.css">
+    <link rel="stylesheet" href="css/tabela.css">
     <link rel="shortcut icon" href="assets/icon/icon_biabank.png" type="image/x-icon">
 </head>
+
 <body>
-    
-    <main>
-        <section>
-            <div class="container_table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Nome completo</th>
-                            <th>Nome da Mãe</th>
-                            <th>Data de Nascimento</th>
-                            <th>CPF</th>
-                            <th>Email</th>
-                            <th>Número de Telefone</th>
-                            <th>Ação</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>x</td>
-                            <td>xxx</td>
-                            <td>xxx</td>
-                            <td>xxx</td>
-                            <td>xxx.xxx.xxx-xx</td>
-                            <td>xxxx@gmail.com</td>
-                            <td>xxx-xxx-xxx</td>
-                            <td>
-                                <button class="button_editar">editar</button>
-                                <button class="button_deletar">deletar</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-    </main>
+
+    <div class="table_container">
+        <table class="table">
+            <thead class="table_head">
+                <tr>
+                    <th class="table_th">#</th>
+                    <th class="table_th">Nome completo</th>
+                    <th class="table_th">Nome da Mãe</th>
+                    <th class="table_th">Data de Nascimento</th>
+                    <th class="table_th">CPF</th>
+                    <th class="table_th">Email</th>
+                    <th class="table_th">Número de Telefone</th>
+                    <th class="table_th">Ação</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <!-- <tr>
+                    <td class="table_td">x</td>
+                    <td class="table_td">xxx</td>
+                    <td class="table_td">xxx</td>
+                    <td class="table_td">xxx</td>
+                    <td class="table_td">xxx.xxx.xxx-xx</td>
+                    <td class="table_td">xxxx@gmail.com</td>
+                    <td class="table_td">xxx-xxx-xxx</td>
+                    <td class="table_td">
+                        <button class="button_action button_editar">editar</button>
+                        <button class="button_action button_deletar">deletar</button>
+                    </td>
+                </tr> -->
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/ListarUsuarios.js" type="module"></script>
+    <script src="js/deletarUsuario.js" type="module"></script>
+    <script src="js/atualizarUsuario.js" type="module"></script>
+
 </body>
+
 </html>
